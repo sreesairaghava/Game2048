@@ -58,16 +58,88 @@
 		04A5344826D0C67E002972FE /* Game2048 */ = {
 			isa = PBXGroup;
 			children = (
-				04A5344926D0C67E002972FE /* AppDelegate.swift */,
-				04A5344B26D0C67E002972FE /* SceneDelegate.swift */,
-				04A5344D26D0C67E002972FE /* ViewController.swift */,
-				04A5344F26D0C67E002972FE /* Main.storyboard */,
-				04A5345526D0C67F002972FE /* Assets.xcassets */,
-				04A5345726D0C67F002972FE /* LaunchScreen.storyboard */,
+				04A5346626D0E65F002972FE /* Models */,
+				04A5346526D0E650002972FE /* Views */,
+				04A5346A26D0E741002972FE /* Controllers */,
+				04A5346726D0E66D002972FE /* ViewModels */,
+				04A5346B26D0E76A002972FE /* App */,
+				04A5346826D0E699002972FE /* Resources */,
+				04A5346926D0E6A4002972FE /* Utils */,
 				04A5345A26D0C67F002972FE /* Info.plist */,
-				04A5345226D0C67E002972FE /* Game2048.xcdatamodeld */,
 			);
 			path = Game2048;
+			sourceTree = "<group>";
+		};
+		04A5346426D0E644002972FE /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				04A5344F26D0C67E002972FE /* Main.storyboard */,
+				04A5345726D0C67F002972FE /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		04A5346526D0E650002972FE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		04A5346626D0E65F002972FE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		04A5346726D0E66D002972FE /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		04A5346826D0E699002972FE /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				04A5345526D0C67F002972FE /* Assets.xcassets */,
+				04A5346426D0E644002972FE /* Storyboards */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		04A5346926D0E6A4002972FE /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		04A5346A26D0E741002972FE /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				04A5344D26D0C67E002972FE /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		04A5346B26D0E76A002972FE /* App */ = {
+			isa = PBXGroup;
+			children = (
+				04A5346C26D0E78B002972FE /* CoreData */,
+				04A5344926D0C67E002972FE /* AppDelegate.swift */,
+				04A5344B26D0C67E002972FE /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		04A5346C26D0E78B002972FE /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				04A5345226D0C67E002972FE /* Game2048.xcdatamodeld */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
