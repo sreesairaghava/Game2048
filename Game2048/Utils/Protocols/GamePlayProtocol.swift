@@ -7,9 +7,9 @@
 
 import Foundation
 
-protocol GamePlayProtocol: AnyObject {
-    func scoreChanged(to score: Int)
-    func moveOneSquare(from: (Int,Int), to: (Int,Int), number: Int)
-    func moveTwoSquare(from: ((Int,Int),(Int,Int)),to: (Int,Int),number: Int)
-    func insertSquare(at location: (Int,Int),withNumber number: Int)
+protocol GamePlayProtocol : AnyObject {
+  func scoreChanged(to score: Int)
+  func moveOneSquare(from: (Int, Int), to: (Int, Int), value: Int)
+  func moveTwoSquares(from: ((Int, Int), (Int, Int)), to: (Int, Int), value: Int)
+  func insertSquare(at location: (Int, Int), withValue value: Int)
 }

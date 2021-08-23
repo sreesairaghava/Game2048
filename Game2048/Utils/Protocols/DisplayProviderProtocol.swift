@@ -8,13 +8,13 @@
 import UIKit
 
 protocol DisplayProviderProtocol: AnyObject {
-    func squareColor(_ value: Int) -> UIColor
-    func numberColor(_ value: Int) -> UIColor
+    func squareColor(_ number: Int) -> UIColor
+    func numberColor(_ number: Int) -> UIColor
 }
 
 class DisplayProvider: DisplayProviderProtocol {
-    func squareColor(_ value: Int) -> UIColor {
-        switch value {
+    func squareColor(_ number: Int) -> UIColor {
+        switch number {
         case 2:
             return UIColor("#eee4da",alpha: 1)
         case 4:
@@ -37,7 +37,7 @@ class DisplayProvider: DisplayProviderProtocol {
     func numberColor(_ value: Int) -> UIColor {
         switch value {
         case 2,4:
-            return UIColor("#776e65",alpha: 1)
+            return UIColor.black
         default:
             return UIColor.white
         }
